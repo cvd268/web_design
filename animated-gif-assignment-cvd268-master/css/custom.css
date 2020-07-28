@@ -1,0 +1,137 @@
+
+
+div.container{
+        /* This should make the website have a nice fade away  */
+    color: black;
+  /* text-align: center; */
+  padding-left:50px;
+  border-width: 5px;
+  border-color:black;
+  border-style: solid;
+
+  /* Paragraph font and family  1  */
+    
+  }
+  body{
+    /* This should make the website have a nice fade away  */
+    background:linear-gradient(to left top,white, black) fixed;
+    /* This is here incase a website doesnt support the linear gradient  */
+    background-color:white;
+  }
+
+  h1{
+    text-align: center;
+    color:white;
+    border-right-width:10px;
+    border-left-width: 10px;
+    border-top:15px;
+    border-bottom: 15px;
+    box-shadow: 0 30px 40px rgba(0,0,0,.2);
+    border-style: groove;
+    font-family: Apple Chancery, cursive ;
+    text-shadow: 1px 1px #C0C0C0,
+                  2px 2px #C0C0C0,
+                  3px 3px #C0C0C0;
+    font-size:40px;
+  }
+
+  h2{
+    text-align: center;
+    color:white;
+    border-right-width:10px;
+    border-left-width: 10px;
+    border-top:15px;
+    border-bottom: 15px;
+    box-shadow: 0 30px 40px rgba(0,0,0,.2);
+    border-style: groove;
+    font-family: Apple Chancery, cursive ;
+    text-shadow: 1px 1px #C0C0C0,
+                  2px 2px #C0C0C0,
+                  3px 3px #C0C0C0;
+    font-size:40px;
+  }
+
+
+img{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    height:auto;
+    width: 20%;
+  }
+
+ h5 {
+/* 
+    Legit just not working */
+    text-align: center;
+    position:relative;
+    top:45%;
+    display: inline-flexbox;
+    color:white;
+    font-weight: bold;
+    font-family: Florence, cursive;
+  }
+ p {
+    /* 
+        Legit just not working */
+        text-align: center;
+        position:relative;
+        top:50%;
+        display: inline-flexbox;
+        color:white;
+        font-weight: bold;
+        font-family: Florence, cursive;
+      }
+
+
+
+
+.carousel-item.active,
+.carousel-item-next,
+.carousel-item-prev {
+  display: block;
+}
+   
+    .carousel {
+        margin-left: auto;
+    margin-right: auto;
+    height:auto;
+    width: 50%;
+     }
+
+
+
+#article1 {
+    background-color: #9A9A9;
+  }
+  #article2 {
+    background-color: #aaa9ad;
+  }
+
+
+  .figure-caption{
+   
+      text-align: center;
+      color:white;
+        font-weight: bold;
+        font-family: Florence, cursive;
+
+
+  }
+  .figure-img{
+    
+    margin-left: auto;
+    margin-right: auto;
+    height:auto;
+    width:30%;
+
+
+  }
+.chops{
+
+  text-align: center;
+  
+  color:white;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
